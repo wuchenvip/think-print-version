@@ -1,0 +1,21 @@
+{
+    "name": "wc/think-print-version",
+    "description": "it will print thinkphp5 version",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wuchen",
+            "email": "wuchvip@163.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Wuchen\\":"src"
+        },
+        "files":[
+            "autoload.php"
+        ]
+    }
+}
